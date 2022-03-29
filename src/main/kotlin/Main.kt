@@ -1,7 +1,7 @@
 import model.Serie
 import model.Videojuego
 
-fun main(args: Array<String>) {
+fun main() {
 
     var serie = arrayOf<Serie>()
     var  videojuego = arrayOf<Videojuego>()
@@ -54,6 +54,6 @@ fun main(args: Array<String>) {
         }
     }
 
-    println("La cantidad de series entregadas es de " + contador)
+    println("La cantidad de series y videojuegos entregados es de " + contador)
 
 }
